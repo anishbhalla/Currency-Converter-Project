@@ -1,0 +1,102 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url("https://c1.wallpaperflare.com/preview/526/841/286/mixture-currencies-finance-business.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  color:burlywood;
+  font-weight: 545;
+}
+
+.container {
+  border: 5px solid burlywood;
+  text-align: center;
+  background-color: rgb(0,0,0,0.5);
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.btn{
+    padding: 15px;
+    background-color: black;
+    border-radius: 50px;
+    border:2px solid burlywood;
+    width: 100%;
+}
+
+form{
+    margin:2rem 0 2rem 0;
+}
+
+.amount p{
+    font-size: larger;
+}
+.amount{
+    border:2px solid burlywood;
+    padding: 18px;
+    border-radius: 20px;
+}
+
+
+form input,select,option{
+    outline:none;
+    color: brown;
+    background-color: burlywood;
+    border-radius:0.4rem;
+    cursor:pointer;
+
+}
+
+input::placeholder{
+    color: brown;
+    font-weight:540;
+    font-style: italic;
+}
+
+form input{
+    border:1px solid burlywood;
+    font-size:1rem;
+    height:2rem;
+    width:100%;
+    color: brown;
+    background-color: burlywood;
+    padding:0.2rem;
+}
+
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    margin:2rem;
+}
+
+.select-container{
+    max-width:4rem;
+    background-color: burlywood;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+form button{
+    cursor:pointer;
+    transition:0.08s ease-in-out;
+}
+
+form button:hover,form button:focus{
+    background-color: brown;
+    font-size :14px;
+}
+
+form select{
+    border:none;
+}
+
